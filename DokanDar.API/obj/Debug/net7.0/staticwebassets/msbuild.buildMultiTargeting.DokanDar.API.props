@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DokanDar.API.props" />
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\bin\Debug\net7.0\DokanDar.Domain.deps.json
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\bin\Debug\net7.0\DokanDar.Domain.dll
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\bin\Debug\net7.0\DokanDar.Domain.pdb
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.csproj.AssemblyReference.cache
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.AssemblyInfoInputs.cache
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.AssemblyInfo.cs
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.dll
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\refint\DokanDar.Domain.dll
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\DokanDar.Domain.pdb
+C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Domain\obj\Debug\net7.0\ref\DokanDar.Domain.dll

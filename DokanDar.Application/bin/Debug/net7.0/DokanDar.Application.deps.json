@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DokanDar.Application/1.0.0": {
+        "dependencies": {
+          "DokanDar.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DokanDar.Application.dll": {}
+        }
+      },
+      "DokanDar.Domain/1.0.0": {
+        "runtime": {
+          "DokanDar.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DokanDar.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DokanDar.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
