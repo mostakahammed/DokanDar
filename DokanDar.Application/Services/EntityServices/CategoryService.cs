@@ -1,4 +1,5 @@
-﻿using DokanDar.Domain.Entities;
+﻿using DokanDar.Application.Services.GenericServices;
+using DokanDar.Domain.Entities;
 using DokanDar.Domain.Interfaces;
 using DokanDar.Domain.Interfaces.EntityRepository;
 using System;

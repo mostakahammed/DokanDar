@@ -26,10 +26,11 @@ namespace DokanDar.Infrastructure
 
         public async Task CommitTransactionAsync()
         {
+
             if (_transaction != null)
             {
                 await _transaction.CommitAsync();
-                _transaction = null;
+                
             }
         }
 
