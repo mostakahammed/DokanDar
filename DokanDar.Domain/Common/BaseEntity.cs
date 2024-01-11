@@ -10,7 +10,7 @@ namespace DokanDar.Domain.Common
     {
         public string CreateUser { get; set; }
         public DateTime CreateDate { get; set; }
-        public string UpdateUser { get; set; } = string.Empty;
+        public string? UpdateUser { get; set; } = string.Empty;
         public DateTime? UpdateDate { get; set; }
     }
 }

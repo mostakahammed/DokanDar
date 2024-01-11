@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj": {}
+    "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj": {
+    "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj",
         "projectName": "DokanDar.Application",
-        "projectPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj",
-        "packagesPath": "C:\\Users\\mosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Application\\obj\\",
+        "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj",
+        "packagesPath": "C:\\Users\\Mostak Ahammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mostak Ahammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj": {
-                "projectPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj"
+              "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj"
               }
             }
           }
@@ -70,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj": {
+    "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
         "projectName": "DokanDar.Domain",
-        "projectPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
-        "packagesPath": "C:\\Users\\mosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mostak Ahammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mostak Ahammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,7 +95,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,24 +128,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj": {
+    "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj",
         "projectName": "DokanDar.Infrastructure",
-        "projectPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Infrastructure\\DokanDar.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mostak Ahammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mosta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mostak Ahammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -156,15 +154,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj": {
-                "projectPath": "C:\\Users\\mosta\\Desktop\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj"
+              "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj": {
+                "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Application\\DokanDar.Application.csproj"
               }
             }
           }
@@ -179,9 +176,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.13, )"
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.15, )"
             }
           },
           "imports": [
@@ -200,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

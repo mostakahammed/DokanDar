@@ -1,11 +1,19 @@
+using DokanDar.API.Configurations;
+using DokanDar.Application.AutoMapper;
+using DokanDar.Infrastructure.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var connectionstring = builder.Configuration.GetConnectionString("dokandar");
+builder.Services.AddDbContext<DokanDbContext>(options => options.UseSqlServer(connectionstring));
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.RegisterUoW();
+builder.RegisterRepositories();
+builder.RegisterServices();
+builder.RegisterStartupService();
+
 
 var app = builder.Build();
 

@@ -7,15 +7,18 @@ using System.Threading.Tasks;
 
 namespace DokanDar.Application.DTO
 {
-    public class CategoryDTO
+    public class CategoryDto
     {
         public int CategoryID { get; set; }
 
+        [Required, StringLength(20)]
         public string CategoryName { get; set; }
 
+        [Required, StringLength(50)]
         public string? Description { get; set; }
+
         public string CreateUser { get; set; }
-        public DateTime CreateDate { get; set; } = DateTime.Now;
+        public DateTime CreateDate { get; set; }
         public string UpdateUser { get; set; } = string.Empty;
         public DateTime? UpdateDate { get; set; }
     }
