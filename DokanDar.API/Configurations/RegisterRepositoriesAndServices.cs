@@ -6,6 +6,8 @@ using DokanDar.Infrastructure.Repositories.EntityRepository;
 using DokanDar.Infrastructure.Repositories;
 using DokanDar.Infrastructure.Services.EntityServices;
 using DokanDar.Infrastructure.Services;
+using DokanDar.Application.IServices.DBServices;
+using DokanDar.Infrastructure.Services.DBServices;
 
 namespace DokanDar.API.Configurations
 {
@@ -23,6 +25,7 @@ namespace DokanDar.API.Configurations
             //----------- Add Services -----------------//
             builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericServices<,>));
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IProcedureService, ProcedureService>();
             return builder;
         }
     }

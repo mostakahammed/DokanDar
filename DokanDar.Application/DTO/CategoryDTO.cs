@@ -17,9 +17,16 @@ namespace DokanDar.Application.DTO
         [Required, StringLength(50)]
         public string? Description { get; set; }
 
+        [Required, StringLength(50)]
         public string CreateUser { get; set; }
+
+        [Required, DataType(DataType.Date)]
         public DateTime CreateDate { get; set; }
-        public string UpdateUser { get; set; } = string.Empty;
+
+        [StringLength(50)]
+        public string? UpdateUser { get; set; } = string.Empty;
+
+        [DataType(DataType.Date)]
         public DateTime? UpdateDate { get; set; }
     }
 }

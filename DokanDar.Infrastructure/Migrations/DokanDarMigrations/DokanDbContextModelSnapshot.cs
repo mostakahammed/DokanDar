@@ -40,7 +40,8 @@ namespace DokanDar.Infrastructure.Migrations.DokanDarMigrations
 
                     b.Property<string>("CreateUser")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -51,8 +52,8 @@ namespace DokanDar.Infrastructure.Migrations.DokanDarMigrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdateUser")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("CategoryID");
 

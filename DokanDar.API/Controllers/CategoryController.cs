@@ -1,8 +1,11 @@
 ﻿using CoreApiResponse;
 using DokanDar.Application.DTO;
+using DokanDar.Application.IServices.DBServices;
 using DokanDar.Application.IServices.EntityServices;
+using DokanDar.Domain.DBModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 using System.Net;
 
 namespace DokanDar.API.Controllers
@@ -12,10 +15,12 @@ namespace DokanDar.API.Controllers
     public class CategoryController : BaseController
     {
         private readonly ICategoryService _categoryService;
+        private readonly IProcedureService _procedureService;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, IProcedureService procedureService)
         {
             _categoryService = categoryService;
+            _procedureService = procedureService;
         }
 
         [HttpGet]
@@ -31,7 +36,29 @@ namespace DokanDar.API.Controllers
                 return CustomResult(ex.Message);
             }
         }
+
         [HttpGet]
+        public IActionResult GetCategoriesByIDs()
+        {
+            try
+            {
+                var param = new { @FromID = 1, @ToID = 5 };
+                DataSet categories =  _procedureService.GetDataWithParameter(param, "Prco_GetCategoryByIDs");
+                var categoriesLists = categories.Tables[0].AsEnumerable()
+                    .Select(row => new CategoryDbModel()
+                    {
+                        CategoryID = row.Field<int>("CategoryID"),
+                        CategoryName = row.Field<string>("CategoryName")
+                    }).ToList();
+                return CustomResult("Categories retured successfully", categoriesLists, HttpStatusCode.OK);
+            }
+            catch (Exception ex)
+            {
+                return CustomResult(ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetCategory(int id)
         {
             try
@@ -113,7 +140,7 @@ namespace DokanDar.API.Controllers
                 return CustomResult(ex.Message);
             }
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {
             try

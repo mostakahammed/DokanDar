@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DokanDar.Infrastructure.Migrations.DokanDarMigrations
 {
     [DbContext(typeof(DokanDbContext))]
-    [Migration("20240111210500_CategoryMigration")]
-    partial class CategoryMigration
+    [Migration("20240112155742_InitialMigraion")]
+    partial class InitialMigraion
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,7 +43,8 @@ namespace DokanDar.Infrastructure.Migrations.DokanDarMigrations
 
                     b.Property<string>("CreateUser")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -54,8 +55,8 @@ namespace DokanDar.Infrastructure.Migrations.DokanDarMigrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UpdateUser")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("CategoryID");
 
