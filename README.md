@@ -29,13 +29,14 @@ DokanDar is a web API built using ASP.NET Core (.NET 7) that follows the clean a
 - Entity Framework Core
 - ADO.NET
 - JWT (JSON Web Tokens) for Authorization
+- Identity Framework Core
 - SQL Server
 
 ## Getting Started
 
 To get started with DokanDar, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/DokanDar.git`
+1. Clone the repository: `git clone https://github.com/mostakahammed/DokanDar.git`
 2. Open the solution in your preferred IDE (Visual Studio, Rider, etc.).
 3. Configure the necessary settings (see [Configuration](#configuration)).
 4. Set up the database (see [Database](#database)).
@@ -63,5 +64,6 @@ DokanDar relies on SQL Server as its database. Ensure that you have a SQL Server
 To apply database migrations, run the following commands:
 
 ```bash
-dotnet ef migrations add InitialMigration
-dotnet ef database update
+dotnet ef database update or
+update-database (package manager console)
+
