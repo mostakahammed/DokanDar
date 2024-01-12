@@ -28,21 +28,23 @@ namespace DokanDar.Infrastructure.Repositories
 
         public async Task<bool> AddAsync(T entity)
         {
-            var entityEntry = await _dbSet.AddAsync(entity);
-            return entityEntry.State == EntityState.Added;
+            await _dbSet.AddAsync(entity);
+            var successresult = await _context.SaveChangesAsync();
+            return successresult > 0 ? true : false;
         }
 
         public async Task<bool> UpdateAsync(T entity)
         {
-            _dbSet.Attach(entity);
-            _context.Entry(entity).State = EntityState.Modified;
-            return true; 
+            _dbSet.Update(entity);
+            var successresult = await _context.SaveChangesAsync();
+            return successresult > 0 ? true : false;
         }
 
         public async Task<bool> DeleteAsync(T entity)
         {
-            var entityEntry = _dbSet.Remove(entity);
-            return entityEntry.State == EntityState.Deleted;
+            _dbSet.Remove(entity);
+            var successresult = await _context.SaveChangesAsync();
+            return successresult > 0 ? true : false;
         }
     }
 }

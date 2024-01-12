@@ -15,30 +15,13 @@ namespace DokanDar.Infrastructure.Services
     {
         //========== Private Dependencies =================//
         private readonly IGenericRepository<T> _repository;
-        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
         //========== Inject dependencies in constructor ================//
-        public GenericServices(IGenericRepository<T> repository, IUnitOfWork unitOfWork, IMapper mapper)
+        public GenericServices(IGenericRepository<T> repository, IMapper mapper)
         {
             _repository = repository;
-            _unitOfWork = unitOfWork;
             _mapper = mapper;
-        }
-
-        //==================== DbContext Save Changes in Database =================//
-        private async Task<bool> SaveChangesAsync()
-        {
-            try
-            {
-                await _unitOfWork.CommitTransactionAsync();
-                return true;
-            }
-            catch
-            {
-                await _unitOfWork.RollbackTransactionAsync();
-                return false;
-            }
         }
 
         //======================================================================================//
@@ -68,10 +51,8 @@ namespace DokanDar.Infrastructure.Services
             if (dto == null)
                 return false;
 
-            var entity = _mapper.Map<T>(dto);
-            await _unitOfWork.BeginTransactionAsync();     
-            await _repository.AddAsync(entity);
-            var result = await SaveChangesAsync();     
+            var entity = _mapper.Map<T>(dto);  
+            var result = await _repository.AddAsync(entity);   
             return result;
         }
 
@@ -82,9 +63,7 @@ namespace DokanDar.Infrastructure.Services
                 return false;
 
             var entity = _mapper.Map<T>(dto);
-            await _unitOfWork.BeginTransactionAsync();
-            await _repository.UpdateAsync(entity);
-            var result = await SaveChangesAsync();
+            var result = await _repository.UpdateAsync(entity);
             return result;
         }
 
@@ -95,10 +74,7 @@ namespace DokanDar.Infrastructure.Services
             if (entity == null)
                 return false;
 
-            await _unitOfWork.BeginTransactionAsync();
-            await _repository.DeleteAsync(entity);
-
-            var result = await SaveChangesAsync();
+            var result = await _repository.DeleteAsync(entity);
             return result;
         }
     }

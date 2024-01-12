@@ -9,7 +9,6 @@ var connectionstring = builder.Configuration.GetConnectionString("dokandar");
 builder.Services.AddDbContext<DokanDbContext>(options => options.UseSqlServer(connectionstring));
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-builder.RegisterUoW();
 builder.RegisterRepositories();
 builder.RegisterServices();
 builder.RegisterStartupService();

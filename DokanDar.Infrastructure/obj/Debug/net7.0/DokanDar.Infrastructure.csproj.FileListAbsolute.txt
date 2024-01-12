@@ -15,3 +15,20 @@ C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Infrastructure\obj\Debug\net
 C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\refint\DokanDar.Infrastructure.dll
 C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.pdb
 C:\Users\Mostak Ahammed\Documents\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\ref\DokanDar.Infrastructure.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Infrastructure.deps.json
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Infrastructure.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Infrastructure.pdb
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Application.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Domain.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Application.pdb
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\bin\Debug\net7.0\DokanDar.Domain.pdb
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.AssemblyInfo.cs
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.csproj.CopyComplete
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\refint\DokanDar.Infrastructure.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\DokanDar.Infrastructure.pdb
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.Infrastructure\obj\Debug\net7.0\ref\DokanDar.Infrastructure.dll

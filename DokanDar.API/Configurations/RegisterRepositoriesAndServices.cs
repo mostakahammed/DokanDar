@@ -11,11 +11,6 @@ namespace DokanDar.API.Configurations
 {
     public static class RegisterRepositoriesAndServices
     {
-        public static WebApplicationBuilder RegisterUoW(this WebApplicationBuilder builder)
-        {
-            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            return builder;
-        }
         public static WebApplicationBuilder RegisterRepositories(this WebApplicationBuilder builder)
         {
             //----------- Add Repository -----------------//

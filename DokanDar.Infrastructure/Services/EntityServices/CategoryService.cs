@@ -14,8 +14,8 @@ namespace DokanDar.Infrastructure.Services.EntityServices
 {
     public class CategoryService : GenericServices<Category, CategoryDto>, ICategoryService
     {
-        public CategoryService(ICategoryRepository repository, IUnitOfWork unitOfWork, IMapper mapper) 
-            : base(repository, unitOfWork, mapper)
+        public CategoryService(ICategoryRepository repository, IMapper mapper) 
+            : base(repository, mapper)
         {
         }
     }

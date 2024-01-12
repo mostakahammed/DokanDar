@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Mostak Ahammed\\Documents\\Portfolio Projects\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
       "projectName": "DokanDar.Domain",
-      "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
+      "projectPath": "C:\\Users\\Mostak Ahammed\\Documents\\Portfolio Projects\\DokanDar\\DokanDar.Domain\\DokanDar.Domain.csproj",
       "packagesPath": "C:\\Users\\Mostak Ahammed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mostak Ahammed\\Documents\\DokanDar\\DokanDar.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Mostak Ahammed\\Documents\\Portfolio Projects\\DokanDar\\DokanDar.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
