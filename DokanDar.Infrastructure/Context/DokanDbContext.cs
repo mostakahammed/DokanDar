@@ -10,7 +10,7 @@ namespace DokanDar.Infrastructure.Context
 {
     public class DokanDbContext : DbContext
     {
-        public DokanDbContext(DbContextOptions options) : base(options) { }
+        public DokanDbContext(DbContextOptions<DokanDbContext> options) : base(options) { }
 
         public DbSet<Category> Category { get; set; }
     }

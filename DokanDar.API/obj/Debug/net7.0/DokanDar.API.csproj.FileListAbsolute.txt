@@ -166,3 +166,10 @@ C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\obj\D
 C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\obj\Debug\net7.0\DokanDar.API.pdb
 C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\obj\Debug\net7.0\DokanDar.API.genruntimeconfig.cache
 C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\obj\Debug\net7.0\ref\DokanDar.API.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Mostak Ahammed\Documents\Portfolio Projects\DokanDar\DokanDar.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

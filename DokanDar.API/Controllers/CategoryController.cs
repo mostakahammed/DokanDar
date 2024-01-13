@@ -3,6 +3,7 @@ using DokanDar.Application.DTO;
 using DokanDar.Application.IServices.DBServices;
 using DokanDar.Application.IServices.EntityServices;
 using DokanDar.Domain.DBModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
@@ -22,7 +23,7 @@ namespace DokanDar.API.Controllers
             _categoryService = categoryService;
             _procedureService = procedureService;
         }
-
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
@@ -79,6 +80,7 @@ namespace DokanDar.API.Controllers
                 return CustomResult(ex.Message);
             }
         }
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddCategory([FromBody] CategoryDto objToCreate)
         {

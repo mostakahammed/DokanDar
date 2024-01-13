@@ -1,17 +1,16 @@
 using DokanDar.API.Configurations;
 using DokanDar.Application.AutoMapper;
-using DokanDar.Infrastructure.Context;
-using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionstring = builder.Configuration.GetConnectionString("dokandar");
-builder.Services.AddDbContext<DokanDbContext>(options => options.UseSqlServer(connectionstring));
 
+builder.RegisterDbContext();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.RegisterRepositories();
 builder.RegisterServices();
 builder.RegisterStartupService();
+builder.RegisterAuthenticationService();
 
 
 var app = builder.Build();
@@ -23,6 +22,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
