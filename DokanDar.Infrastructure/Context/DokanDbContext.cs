@@ -13,5 +13,6 @@ namespace DokanDar.Infrastructure.Context
         public DokanDbContext(DbContextOptions<DokanDbContext> options) : base(options) { }
 
         public DbSet<Category> Category { get; set; }
+        public DbSet<Shelf> Shelf { get; set; }
     }
 }

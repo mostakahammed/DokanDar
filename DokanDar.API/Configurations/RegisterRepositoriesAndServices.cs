@@ -22,6 +22,7 @@ namespace DokanDar.API.Configurations
             //----------- Add Repository -----------------//
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IShelfRepository, ShelfRepository>();
             return builder;
         }
         public static WebApplicationBuilder RegisterServices(this WebApplicationBuilder builder)
@@ -30,6 +31,8 @@ namespace DokanDar.API.Configurations
             builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericServices<,>));
             builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IShelfService, ShelfService>();
+
             builder.Services.AddScoped<IProcedureService, ProcedureService>();
             return builder;
         }

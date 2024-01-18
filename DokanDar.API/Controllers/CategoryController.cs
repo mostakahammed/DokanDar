@@ -23,7 +23,7 @@ namespace DokanDar.API.Controllers
             _categoryService = categoryService;
             _procedureService = procedureService;
         }
-        [Authorize]
+
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
@@ -80,7 +80,7 @@ namespace DokanDar.API.Controllers
                 return CustomResult(ex.Message);
             }
         }
-        [Authorize]
+
         [HttpPost]
         public async Task<IActionResult> AddCategory([FromBody] CategoryDto objToCreate)
         {
@@ -142,6 +142,7 @@ namespace DokanDar.API.Controllers
                 return CustomResult(ex.Message);
             }
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {

@@ -14,6 +14,7 @@ namespace DokanDar.Application.AutoMapper
         public MappingProfile()
         {
             CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<Shelf, ShelfDto>().ReverseMap();
         }
     }
 }
